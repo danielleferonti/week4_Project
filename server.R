@@ -13,7 +13,7 @@ library(shiny)
 
 # Define server logic required to draw a histogram
 shinyServer(function(input, output) {
-  TempData <- read.csv("C:/R Training/R Training/RWorkingDir-DMF/CourseRA/Course9/Week4/Avg_temp.csv")
+  TempData <- read.csv("Avg_temp.csv")
   
  
  ##  output$datatable <- reactive({
