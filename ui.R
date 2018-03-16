@@ -1,6 +1,6 @@
 
 library(shiny)
-TempData <- read.csv("C:/R Training/R Training/RWorkingDir-DMF/CourseRA/Course9/Week4/Avg_temp.csv")
+TempData <- read.csv("Avg_temp.csv")
 SeasonChoices <- sort(unique(as.character(TempData$Season)))
 
 ##The data was downloaded from the below site, and I appended seasons to each month.  The csv with the data is included in the repository.
